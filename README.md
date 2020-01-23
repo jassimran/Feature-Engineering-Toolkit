@@ -3,12 +3,13 @@ A feature engineering toolkit for data so that data scientists can easily apply 
 
 ### MAIN FEATURES
 The main features of the toolkit are highlighted below:
-*Extensibility* It is a highly extensible toolkit with the ease of adding new feature engineering techniques by implemeting abstract class "FeatureTransfomer".
-*Pipeline* More often, a data scientist would want to create a sequence of transformations on the data. Using this toolkit one can build the pipelines very intuitively to apply seqyential transforms.
-*Validate Pipeline* Every Pipeline is validated before the transforms can be applied and inituitive error message are shown to data scientist to fix the validations. This saves data scientist lot of time in fixing the issues and create pipelines quickly.
-*Pipeline Comparison* This toolkit lets you easily compare two different feature engineering pipelines against standard pre-defined scikit-learn models and metrics.
-*CSV Loader* The CSV Loader takes cares of different encodings of CSV and loads your data as a `pandas` dataframe seemlessly for processing.
-*Demo Notebooks* Most often in toolkits, data scientists struggle with documentation and easy to use examples. This toolkit comes with demo Jupyter notebooks thats lets users play with toolkit and use its different techniques easily. A sample notebook has been used to demo some of the toolkit capabilities.
+
+- **Extensibility** It is a highly extensible toolkit with the ease of adding new feature engineering techniques by implemeting abstract class "FeatureTransfomer".
+- **Pipeline** More often, a data scientist would want to create a sequence of transformations on the data. Using this toolkit one can build the pipelines very intuitively to apply seqyential transforms.
+- **Validate Pipeline** Every Pipeline is validated before the transforms can be applied and inituitive error message are shown to data scientist to fix the validations. This saves data scientist lot of time in fixing the issues and create pipelines quickly.
+- **Pipeline Comparison** This toolkit lets you easily compare two different feature engineering pipelines against standard pre-defined scikit-learn models and metrics.
+- **CSV Loader** The CSV Loader takes cares of different encodings of CSV and loads your data as a `pandas` dataframe seemlessly for processing.
+- **Demo Notebooks** Most often in toolkits, data scientists struggle with documentation and easy to use examples. This toolkit comes with demo Jupyter notebooks thats lets users play with toolkit and use its different techniques easily. A sample notebook has been used to demo some of the toolkit capabilities.
 
 ### TOOLS ALREADY AVAILABLE
 There are other open source toolkits which have similar motivation such as [featuretools](https://www.featuretools.com/), [autosklearn](https://automl.github.io/auto-sklearn/master/), and [H2O](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/faq/python.html). While many of the feature engineering and trasnformation functions could be borrowed from these toolkits, I have majorly focussed on pproviding the overall solution architecture (given time constraints)
